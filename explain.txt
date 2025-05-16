@@ -1,0 +1,19 @@
+In the file: face_detection.py
+Face recognition and facial expressions are done with Deep Face. 
+I uploaded a picture with two faces, it correctly recognized the two faces by their facial expressions, 
+but it recognized a third face, which was the elbow of one of the people who was also wearing clothes, which is completely wrong. 
+
+
+In the second file:face_detection_2.py
+I fixed the problem of the first part and it recognized only two faces, 
+which was completely correct, but when I uploaded a picture of 4, 
+it considered the three images as one and finally recognized two faces, 
+one of which was completely correct.
+The second face is relatively correct, but the other two faces were not recognized, 
+one of the reasons was that the faces were close to each other
+
+
+In the file: face_detection_3.py
+I fixed the previous problem, 
+which included pre-processing such as resizing and then reducing the noise with a Gaussian filter and using a better model, 
+which finally recognized 4 faces correctly and the facial expressions were almost correct.
