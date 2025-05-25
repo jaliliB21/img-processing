@@ -1,0 +1,2 @@
+In this code, it detects the face in the image live and tells you what 
+the face is like, angry, happy or normal, and what is the eye shape.
